@@ -11,6 +11,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import io.harness.agent.sdk.HarnessAlwaysRun;
 import io.harness.jhttp.api.HttpRequest;
 
 import static org.junit.Assert.*;
@@ -51,6 +52,7 @@ public class DirectoryIndexTest {
     }
 
     @Test
+    @HarnessAlwaysRun
     public void testIndexHtm() throws IOException {
         Files.write(tempDir.resolve("index.htm"), "test123".getBytes());
         assertTrue(new DirectoryIndex().process(request, response));
