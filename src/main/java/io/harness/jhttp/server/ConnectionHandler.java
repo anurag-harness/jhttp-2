@@ -46,6 +46,8 @@ public class ConnectionHandler implements Runnable {
             IOUtils.closeQuietly(clientSocket);
         }
     }
+    
+    
 
     private void handleConnection() throws IOException, InterruptedException {
         final SocketHttpRequest request = new SocketHttpRequest(clientSocket, pathResolver);
