@@ -1,5 +1,5 @@
   
-# JAVA Test Intelligence Demo
+# JAVA Test Intelligence Demo Bootstrap
 1. Change the the backround color in the following file by swapping the comments in the below file.
 https://github.com/harness-io/jhttp/blob/master/src/main/java/io/harness/jhttp/processor/DirectoryListing.java
 
