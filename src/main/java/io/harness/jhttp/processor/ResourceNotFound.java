@@ -25,4 +25,9 @@ public class ResourceNotFound implements RequestProcessor {
         response.getPrintWriter().println(String.format("File %s can't be found.", request.getUri()));
         return true;
     }
+
+        public boolean process2(HttpRequest request, HttpResponse response) {
+    
+        return true;
+    }
 }
