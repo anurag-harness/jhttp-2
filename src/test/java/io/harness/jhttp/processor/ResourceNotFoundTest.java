@@ -48,6 +48,7 @@ public class ResourceNotFoundTest {
     @Test
     public void testRootListing() throws IOException {
         assertTrue(new ResourceNotFound().process(request, response));
+         assertTrue(new ResourceNotFound().process2(request, response));
         verify(response).setStatus(404, "File not found");
         assertEquals(readResource("/not-found/not-found.html"), stringWriter.toString());
     }
