@@ -3,7 +3,7 @@ package io.harness.jhttp.server;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * A HTTP request or response header.
+ * A HTTP request  or response header.
  * 
  *
  */
