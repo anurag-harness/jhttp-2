@@ -46,10 +46,10 @@ public class DirectoryIndexTest {
 
     @Test
     public void testIndexHtml() throws IOException {
-        // Assume.assumeTrue(false);
-        // Files.write(tempDir.resolve("index.html"), "test123".getBytes());
-        // assertTrue(new DirectoryIndex().process(request, response));
-        // assertEquals("test123", getResponseAsString());
+        Assume.assumeTrue(false);
+        Files.write(tempDir.resolve("index.html"), "test123".getBytes());
+        assertTrue(new DirectoryIndex().process(request, response));
+        assertEquals("test123", getResponseAsString());
     }
 
     @Test
