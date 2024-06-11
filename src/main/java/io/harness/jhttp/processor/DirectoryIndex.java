@@ -11,7 +11,7 @@ import io.harness.jhttp.api.RequestProcessor;
 import static io.harness.jhttp.LambdaUtils.curry;
 
 /**
- * This processor render the {@code index.htm[l]} file, if it exists in the requested directory.
+ * This processor render the {@aacode index.htm[l]} file, if it exists in the requested directory.
  * 
  *
  */
