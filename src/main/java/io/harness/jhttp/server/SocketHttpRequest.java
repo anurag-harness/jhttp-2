@@ -14,7 +14,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * This class parses the socket's input stream and exposes result in a form of a {@link HttpRequest}
- * implementation.
+ * implementation. 
  * 
  *
  */
