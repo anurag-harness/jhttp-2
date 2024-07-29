@@ -6,7 +6,7 @@ import java.util.List;
 import aQute.bnd.annotation.ProviderType;
 
 /**
- * An incoming request.
+ * An incoming request. 
  * 
  *
  */
